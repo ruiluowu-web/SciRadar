@@ -324,7 +324,7 @@ export default function SciRadar() {
                     dataKey="subject" 
                     tick={{ fill: '#475569', fontSize: fontSize, fontWeight: 500 }}
                   />
-                  <PolarRadiusAxis angel={90} domain={[0, 'auto']} tick={{ fontSize: fontSize - 2 }} />
+                  <PolarRadiusAxis angle={90} domain={[0, 'auto']} tick={{ fontSize: fontSize - 2 }} />
                   
                   {models.map((model) => (
                     <Radar
